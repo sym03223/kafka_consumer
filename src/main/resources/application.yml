@@ -1,0 +1,13 @@
+spring:
+  application:
+    name : kafka_consumer1
+
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: consumer_group01
+      auto-offset-reset: earliest
+
+server:
+  port : 12201
+
